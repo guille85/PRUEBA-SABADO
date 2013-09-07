@@ -12,11 +12,12 @@ body{
 	width:500px;
 	display:block;
 	margin:50px auto;
-	background-color:;
+	background-color:#EEE;
 }
 
 p{
-	font-family: /*[Verdana|Trebuchet MS|Arial|Helvetica|Sans Serif|Serif]+*/;
+	font-family: Verdana/*[|Trebuchet MS|Arial|Helvetica|Sans Serif|Serif]+*/;
+	color:#03455D;
 }
 
 	img{
@@ -26,11 +27,13 @@ p{
 	}
 
 	p b{
-		font-weight:/*norma|bold*/
+		font-weight:bold;/*norma|*/
+		color:#BA2306;
 	}
 
 	p b:hover{
-		font-weight:;/*norma|bold*/
-		text-decoration:;
-		font-style:;
+		font-weight:bold;/*norma|bold*/
+		text-decoration:underline;
+		font-style:normal;
+		color:#D44D00;
 	}
